@@ -8,8 +8,8 @@ android:
         # project compile sdk
         - android-22
 
-install:
-    - gradle build -x test
+        # system image for tests on emulator
+        - sys-img-armeabi-v7a-android-22
 
 sudo: false
 

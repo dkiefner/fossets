@@ -15,12 +15,12 @@ public class TypefaceButton extends Button implements TypeFaceView {
 
     public TypefaceButton(Context context, AttributeSet attrs) {
         super(context, attrs);
-        Fossets.with(context).load(this, attrs);
+        Fossets.with(context).set(this, attrs);
     }
 
     public TypefaceButton(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        Fossets.with(context).load(this, attrs);
+        Fossets.with(context).set(this, attrs);
     }
 
     @Override

@@ -46,7 +46,7 @@ public class Fossets {
         return resultObject;
     }
 
-    public void load(TextView textView, AttributeSet attrs) {
+    public void set(TextView textView, AttributeSet attrs) {
         if (textView.isInEditMode()) {
             return;
         }

@@ -15,12 +15,12 @@ public class TypefaceTextView extends TextView implements TypeFaceView {
 
     public TypefaceTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        Fossets.with(context).load(this, attrs);
+        Fossets.with(context).set(this, attrs);
     }
 
     public TypefaceTextView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        Fossets.with(context).load(this, attrs);
+        Fossets.with(context).set(this, attrs);
     }
 
     @Override

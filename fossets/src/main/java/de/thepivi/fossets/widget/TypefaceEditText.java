@@ -15,12 +15,12 @@ public class TypefaceEditText extends EditText implements TypeFaceView {
 
     public TypefaceEditText(Context context, AttributeSet attrs) {
         super(context, attrs);
-        Fossets.with(context).load(this, attrs);
+        Fossets.with(context).set(this, attrs);
     }
 
     public TypefaceEditText(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        Fossets.with(context).load(this, attrs);
+        Fossets.with(context).set(this, attrs);
     }
 
     @Override

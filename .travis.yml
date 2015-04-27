@@ -8,6 +8,9 @@ android:
         # project compile sdk
         - android-22
 
+install:
+    - gradle build -x test
+
 sudo: false
 
 cache:

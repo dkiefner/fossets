@@ -35,23 +35,28 @@
         android:layout_centerVertical="true"
         android:orientation="vertical">
 
-        <de.thepivi.fossets.widget.TypefaceTextView
+        <TextView
             android:id="@+id/text"
             style="@style/Item"
-            android:text="@string/text"
+            android:text="@string/text" />
+
+        <de.thepivi.fossets.widget.TypefaceTextView
+            android:id="@+id/tf_text"
+            style="@style/Item"
+            android:text="@string/tf_text"
             app:typeface="@string/font_good_dog" />
 
         <de.thepivi.fossets.widget.TypefaceEditText
-            android:id="@+id/edit"
+            android:id="@+id/tf_edit"
             style="@style/Item"
-            android:hint="@string/edit"
-            android:text="@string/edit"
+            android:hint="@string/tf_edit"
+            android:text="@string/tf_edit"
             app:typeface="@string/font_good_dog" />
 
         <de.thepivi.fossets.widget.TypefaceButton
-            android:id="@+id/button"
+            android:id="@+id/tf_button"
             style="@style/Item"
-            android:text="@string/button"
+            android:text="@string/tf_button"
             app:typeface="@string/font_good_dog" />
     </LinearLayout>
 

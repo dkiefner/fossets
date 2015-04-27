@@ -9,9 +9,10 @@
     <string name="font_quicksand_regular" translatable="false">fonts/quicksand/Quicksand-Regular.otf</string>
 
     <!-- Labels -->
-    <string name="edit">EditText</string>
     <string name="text">TextView</string>
-    <string name="button">Button</string>
+    <string name="tf_text">TypefaceTextView</string>
+    <string name="tf_edit">TypefaceEditText</string>
+    <string name="tf_button">TypefaceButton</string>
     <string name="font_label">Selected Font:</string>
 
     <!-- Font Spinner Entries -->

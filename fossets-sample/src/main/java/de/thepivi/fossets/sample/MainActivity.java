@@ -1,8 +1,8 @@
 package de.thepivi.fossets.sample;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
@@ -14,7 +14,7 @@ import de.thepivi.fossets.widget.TypefaceEditText;
 import de.thepivi.fossets.widget.TypefaceTextView;
 
 
-public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+public class MainActivity extends Activity implements AdapterView.OnItemSelectedListener {
 
     private static final String TAG = "Fossets-Sample";
 

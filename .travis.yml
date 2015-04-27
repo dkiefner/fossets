@@ -8,13 +8,6 @@ android:
         # project compile sdk
         - android-22
 
-        # additional components
-        - extra-android-support
-
-install:
-    - cd fossets
-    - gradle build
-
 sudo: false
 
 cache:

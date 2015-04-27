@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_name">Fossets</string>
+
+    <!-- Fonts -->
+    <string name="font_good_dog" translatable="false">fonts/good_dog/GoodDog.otf</string>
+    <string name="font_quicksand_bold" translatable="false">fonts/quicksand/Quicksand-Bold.otf</string>
+    <string name="font_quicksand_italic" translatable="false">fonts/quicksand/Quicksand-Italic.otf</string>
+    <string name="font_quicksand_regular" translatable="false">fonts/quicksand/Quicksand-Regular.otf</string>
+
+    <!-- Labels -->
+    <string name="edit">EditText</string>
+    <string name="text">TextView</string>
+    <string name="button">Button</string>
+    <string name="font_label">Selected Font:</string>
+
+    <!-- Font Spinner Entries -->
+    <string-array name="fonts_array">
+        <item>Good Dog</item>
+        <item>Quicksand Bold</item>
+        <item>Quicksand Italic</item>
+        <item>Quicksand Regular</item>
+        <item>System (default)</item>
+    </string-array>
+
+</resources>

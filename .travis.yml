@@ -1,7 +1,18 @@
 language: android
 
 android:
-  components:
-    - build-tools-22.0.1
-    - android-22
-    - extra-android-support-22.1.1
+    components:
+        # project build tools
+        - build-tools-22.0.1
+
+        # project compile sdk
+        - android-22
+
+        # additional components
+        - extra-android-m2repository
+
+sudo: false
+
+cache:
+  directories:
+    - $HOME/.m2

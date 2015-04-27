@@ -11,6 +11,10 @@ android:
         # additional components
         - extra-android-support
 
+install:
+    - cd fossets
+    - gradle build
+
 sudo: false
 
 cache:

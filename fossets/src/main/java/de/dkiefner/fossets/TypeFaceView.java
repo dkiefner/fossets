@@ -1,4 +1,4 @@
-package de.thepivi.fossets;
+package de.dkiefner.fossets;
 
 import android.content.Context;
 

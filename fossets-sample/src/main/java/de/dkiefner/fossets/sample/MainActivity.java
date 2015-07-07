@@ -1,4 +1,4 @@
-package de.thepivi.fossets.sample;
+package de.dkiefner.fossets.sample;
 
 import android.app.Activity;
 import android.content.Context;
@@ -9,10 +9,10 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import de.thepivi.fossets.Fossets;
-import de.thepivi.fossets.widget.TypefaceButton;
-import de.thepivi.fossets.widget.TypefaceEditText;
-import de.thepivi.fossets.widget.TypefaceTextView;
+import de.dkiefner.fossets.Fossets;
+import de.dkiefner.fossets.widget.TypefaceButton;
+import de.dkiefner.fossets.widget.TypefaceEditText;
+import de.dkiefner.fossets.widget.TypefaceTextView;
 
 
 public class MainActivity extends Activity implements AdapterView.OnItemSelectedListener {
@@ -25,7 +25,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemSelected
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(de.thepivi.fossets.sample.R.layout.activity_main);
+        setContentView(de.dkiefner.fossets.sample.R.layout.activity_main);
 
         initViews();
     }

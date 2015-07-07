@@ -1,24 +1,24 @@
-package de.thepivi.fossets.widget;
+package de.dkiefner.fossets.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import android.widget.EditText;
+import android.widget.Button;
 
-import de.thepivi.fossets.TypeFaceView;
-import de.thepivi.fossets.Fossets;
+import de.dkiefner.fossets.Fossets;
+import de.dkiefner.fossets.TypeFaceView;
 
-public class TypefaceEditText extends EditText implements TypeFaceView {
+public class TypefaceButton extends Button implements TypeFaceView {
 
-    public TypefaceEditText(Context context) {
+    public TypefaceButton(Context context) {
         super(context);
     }
 
-    public TypefaceEditText(Context context, AttributeSet attrs) {
+    public TypefaceButton(Context context, AttributeSet attrs) {
         super(context, attrs);
         Fossets.with(context).set(this, attrs);
     }
 
-    public TypefaceEditText(Context context, AttributeSet attrs, int defStyle) {
+    public TypefaceButton(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         Fossets.with(context).set(this, attrs);
     }

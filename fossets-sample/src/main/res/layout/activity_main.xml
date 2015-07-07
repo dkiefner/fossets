@@ -40,20 +40,20 @@
             style="@style/Item"
             android:text="@string/text" />
 
-        <de.thepivi.fossets.widget.TypefaceTextView
+        <de.dkiefner.fossets.widget.TypefaceTextView
             android:id="@+id/tf_text"
             style="@style/Item"
             android:text="@string/tf_text"
             app:typeface="@string/font_good_dog" />
 
-        <de.thepivi.fossets.widget.TypefaceEditText
+        <de.dkiefner.fossets.widget.TypefaceEditText
             android:id="@+id/tf_edit"
             style="@style/Item"
             android:hint="@string/tf_edit"
             android:text="@string/tf_edit"
             app:typeface="@string/font_good_dog" />
 
-        <de.thepivi.fossets.widget.TypefaceButton
+        <de.dkiefner.fossets.widget.TypefaceButton
             android:id="@+id/tf_button"
             style="@style/Item"
             android:text="@string/tf_button"

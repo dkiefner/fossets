@@ -9,7 +9,7 @@ A helper library to use custom fonts
 
 2.  Use predefined views in layout:
     ``` xml
-    <de.thepivi.fossets.widget.TypefaceTextView
+    <de.dkiefner.fossets.widget.TypefaceTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello typfaced TextView"

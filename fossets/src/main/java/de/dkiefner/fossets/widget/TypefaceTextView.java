@@ -1,11 +1,11 @@
-package de.thepivi.fossets.widget;
+package de.dkiefner.fossets.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import de.thepivi.fossets.Fossets;
-import de.thepivi.fossets.TypeFaceView;
+import de.dkiefner.fossets.Fossets;
+import de.dkiefner.fossets.TypeFaceView;
 
 public class TypefaceTextView extends TextView implements TypeFaceView {
 

@@ -35,7 +35,7 @@ Download [the latest JAR][2] or grab via Gradle:
 # License
     The MIT License (MIT)
 
-    Copyright (c) 2015 Fossets
+    Copyright (c) 2015 Danny Kiefner
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal

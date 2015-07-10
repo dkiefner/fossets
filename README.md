@@ -3,12 +3,12 @@
 A helper library to use custom fonts
 
 # Gradle
-    ```
-    dependencies {
-        ...
-        compile 'de.dkiefner:fossets:1.0.0'
-    }
-    ```
+``` groovy
+dependencies {
+    ...
+    compile 'de.dkiefner:fossets:1.0.0'
+}
+```
 
 # Usage
 *For a working implementation, have a look at the fossets-sample project*

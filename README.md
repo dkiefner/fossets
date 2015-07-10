@@ -2,10 +2,12 @@
 # fossets
 A helper library to use custom fonts
 
-# Download
-Download [the latest JAR][2] or grab via Gradle:
-    ```groovy
-    compile 'de.dkiefner:fossets:1.0.0'
+# Gradle
+    ```
+    dependencies {
+        ...
+        compile 'de.dkiefner:fossets:1.0.0'
+    }
     ```
 
 # Usage

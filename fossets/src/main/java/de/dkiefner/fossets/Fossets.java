@@ -46,7 +46,7 @@ public class Fossets {
         return resultObject;
     }
 
-    public <T extends TextView> void set(T view, AttributeSet attrs) {
+    public <T extends TextView> void set(AttributeSet attrs, T view) {
         if (view.isInEditMode()) {
             return;
         }
@@ -55,15 +55,21 @@ public class Fossets {
         String fontPath = styledAttrs.getString(R.styleable.TypefaceView_typeface);
         styledAttrs.recycle();
 
-        set(view, fontPath);
+        set(fontPath, view);
     }
 
-    public <T extends TextView> void set(T view, String fontPath) {
+    public <T extends TextView> void set(String fontPath, T... view) {
+        Typeface typeface;
+
         if (fontPath != null) {
-            view.setTypeface(createFromAsset(fontPath));
+            typeface = createFromAsset(fontPath);
         } else {
             Log.w(TAG, "Custom font not set. Use system font instead.");
-            view.setTypeface(Typeface.DEFAULT);
+            typeface = Typeface.DEFAULT;
+        }
+
+        for (T singleView : view) {
+            singleView.setTypeface(typeface);
         }
     }
 

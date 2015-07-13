@@ -15,17 +15,17 @@ public class TypefaceEditText extends EditText implements TypeFaceView {
 
     public TypefaceEditText(Context context, AttributeSet attrs) {
         super(context, attrs);
-        Fossets.with(context).set(this, attrs);
+        Fossets.with(context).set(attrs, this);
     }
 
     public TypefaceEditText(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        Fossets.with(context).set(this, attrs);
+        Fossets.with(context).set(attrs, this);
     }
 
     @Override
-    public void setTypeface(Context context, String fontPath) {
-        Fossets.with(context).set(this, fontPath);
+    public void setTypeface(String fontPath) {
+        Fossets.with(getContext()).set(fontPath, this);
     }
 
 }

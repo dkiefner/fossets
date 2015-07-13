@@ -62,12 +62,12 @@ public class MainActivity extends Activity implements AdapterView.OnItemSelected
         Context context = getBaseContext();
 
         // using Fossets on normal TextView
-        Fossets.with(context).set(text, fontPath);
+        Fossets.with(context).set(fontPath, text);
 
         // using TypeFaceViews
-        tfText.setTypeface(context, fontPath);
-        tfEdit.setTypeface(context, fontPath);
-        tfButton.setTypeface(context, fontPath);
+        tfText.setTypeface(fontPath);
+        tfEdit.setTypeface(fontPath);
+        tfButton.setTypeface(fontPath);
     }
 
     @Override

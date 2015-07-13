@@ -6,7 +6,7 @@ A helper library to use custom fonts
 ``` groovy
 dependencies {
     ...
-    compile 'de.dkiefner:fossets:1.0.0'
+    compile 'de.dkiefner:fossets:1.1.0'
 }
 ```
 
@@ -26,10 +26,13 @@ dependencies {
     
     or use Fossets to inject the system views with your custom font:
     ``` java
-    Fossets.with(context).set(view, fontPath);
+    Fossets.with(context).set(fontPath, view);
+    Fossets.with(context).set(fontPath, view1, view2, ...);
     ```
 
 # Changelog
+* **1.1.0**
+    * Inject multiple Views with single call
 * **1.0.0**
     * Initial release
 

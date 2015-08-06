@@ -58,6 +58,11 @@
             style="@style/Item"
             android:text="@string/tf_button"
             app:typeface="@string/font_good_dog" />
+
+        <de.dkiefner.fossets.widget.TypefaceToggleButton
+            android:id="@+id/tf_togglebutton"
+            style="@style/Item"
+            app:typeface="@string/font_good_dog" />
     </LinearLayout>
 
 </RelativeLayout>

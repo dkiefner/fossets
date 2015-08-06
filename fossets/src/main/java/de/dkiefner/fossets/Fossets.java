@@ -58,7 +58,8 @@ public class Fossets {
         set(fontPath, view);
     }
 
-    public <T extends TextView> void set(String fontPath, T... view) {
+    @SafeVarargs
+    public final <T extends TextView> void set(String fontPath, T... view) {
         Typeface typeface;
 
         if (fontPath != null) {

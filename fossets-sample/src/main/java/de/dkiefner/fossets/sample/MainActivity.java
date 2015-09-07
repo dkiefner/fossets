@@ -12,6 +12,7 @@ import android.widget.TextView;
 import de.dkiefner.fossets.Fossets;
 import de.dkiefner.fossets.widget.TypefaceButton;
 import de.dkiefner.fossets.widget.TypefaceEditText;
+import de.dkiefner.fossets.widget.TypefaceRadioButton;
 import de.dkiefner.fossets.widget.TypefaceTextView;
 import de.dkiefner.fossets.widget.TypefaceToggleButton;
 
@@ -23,6 +24,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemSelected
     private TypefaceEditText tfEdit;
     private TypefaceButton tfButton;
     private TypefaceToggleButton tfToggleButton;
+    private TypefaceRadioButton tfRadioButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +40,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemSelected
         tfEdit = (TypefaceEditText) findViewById(R.id.tf_edit);
         tfButton = (TypefaceButton) findViewById(R.id.tf_button);
         tfToggleButton = (TypefaceToggleButton) findViewById(R.id.tf_togglebutton);
+        tfRadioButton = (TypefaceRadioButton) findViewById(R.id.tf_radiobutton);
 
         Spinner mSpinner = (Spinner) findViewById(R.id.spinner);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.fonts_array, android.R.layout.simple_spinner_item);
@@ -72,6 +75,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemSelected
         tfEdit.setTypeface(fontPath);
         tfButton.setTypeface(fontPath);
         tfToggleButton.setTypeface(fontPath);
+        tfRadioButton.setTypeface(fontPath);
     }
 
     @Override

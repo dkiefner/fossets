@@ -14,6 +14,7 @@
     <string name="tf_edit">TypefaceEditText</string>
     <string name="tf_button">TypefaceButton</string>
     <string name="font_label">Selected Font:</string>
+    <string name="tf_radio">TypefaceRadioButton</string>
 
     <!-- Font Spinner Entries -->
     <string-array name="fonts_array">

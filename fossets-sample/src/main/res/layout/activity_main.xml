@@ -63,6 +63,12 @@
             android:id="@+id/tf_togglebutton"
             style="@style/Item"
             app:typeface="@string/font_good_dog" />
+
+        <de.dkiefner.fossets.widget.TypefaceRadioButton
+            android:id="@+id/tf_radiobutton"
+            style="@style/Item"
+            android:text="@string/tf_radio"
+            app:typeface="@string/font_good_dog" />
     </LinearLayout>
 
 </RelativeLayout>

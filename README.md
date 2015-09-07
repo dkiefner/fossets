@@ -31,6 +31,8 @@ dependencies {
     ```
 
 # Changelog
+* **1.2.0**
+    * Add TypefaceToggleButton and TypefaceRadioButton
 * **1.1.0**
     * Inject multiple Views with single call
 * **1.0.0**
